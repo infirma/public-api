@@ -1,0 +1,41 @@
+{
+  "name": "infirma/public-api",
+  "description": "Skrypty ułatwiające dostęp do API systemu CRM inFirma.pl",
+  "keywords": [
+    "api",
+    "public-api",
+    "crm",
+    "infirma",
+    "infirma.pl"
+  ],
+  "version": "0.1.0",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "homepage": "https://www.infirma.pl",
+  "authors": [
+    {
+      "name": "Lukasz Piernikarczyk",
+      "email": "biuro@lukana.pl",
+      "homepage": "https://www.infirma.pl/"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "firebase/php-jwt": "^5.0",
+    "guzzlehttp/guzzle": "^6.5",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "InFirmaApi\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}

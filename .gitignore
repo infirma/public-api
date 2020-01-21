@@ -1,0 +1,6 @@
+/vendor/
+/cache/
+/logs/
+.idea/
+.phpunit.result.cache
+/tests/infirma-key.json
